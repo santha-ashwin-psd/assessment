@@ -10,7 +10,6 @@ class AirplaneFlight(WebsiteGenerator):
 	def before_submit(self):
 		self.status = "Completed"
 	def on_update(self):
-		# If gate number has changed, enqueue update
 		old_doc = self.get_doc_before_save()
 		if old_doc and old_doc.gate_number != self.gate_number:
 			enqueue(

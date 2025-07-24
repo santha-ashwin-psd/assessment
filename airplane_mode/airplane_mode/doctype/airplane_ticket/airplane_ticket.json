@@ -25,8 +25,8 @@
   "departure_time",
   "column_break_bjre",
   "duration_of_flight",
-  "amended_from",
-  "gate_number"
+  "gate_number",
+  "amended_from"
  ],
  "fields": [
   {
@@ -158,6 +158,8 @@
    "read_only": 1
   },
   {
+   "allow_on_submit": 1,
+   "fetch_from": "flight.gate_number",
    "fieldname": "gate_number",
    "fieldtype": "Data",
    "label": "Gate Number"
@@ -167,7 +169,7 @@
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2025-07-09 12:54:04.090847",
+ "modified": "2025-07-24 11:29:33.965424",
  "modified_by": "Administrator",
  "module": "Airplane Mode",
  "name": "Airplane Ticket",

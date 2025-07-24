@@ -33,7 +33,8 @@
   {
    "fieldname": "month",
    "fieldtype": "Select",
-   "label": "Month"
+   "label": "Month",
+   "options": "January\nFebruary\nMarch\nApril\nMay\nJune\nJuly\nAugust\nSeptember\nOctober\nNovember\nDecember"
   },
   {
    "fieldname": "year",
@@ -49,7 +50,7 @@
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-07-09 17:33:40.329048",
+ "modified": "2025-07-23 19:11:54.053274",
  "modified_by": "Administrator",
  "module": "Airport Shop Management",
  "name": "Rent Payment",

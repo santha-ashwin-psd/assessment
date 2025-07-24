@@ -20,6 +20,12 @@ scheduler_events = {
     ]
 }
 
+fixtures = [
+    {
+        "dt": "Shop Type",
+        "filters": [["shop_type", "in", ["Stall", "Walk-through", "Normal"]]]
+    }
+]
 # Each item in the list will be shown as an app in the apps page
 # add_to_apps_screen = [
 # 	{

@@ -3,7 +3,7 @@
 
 // frappe.ui.form.on("Airplane Flight", {
 // 	refresh(frm) {
-
+// Api secret731a23c88ae9360  Api key e2c311840f8904e
 // 	},
 // });
 frappe.ui.form.on('Flight Crew Member', {

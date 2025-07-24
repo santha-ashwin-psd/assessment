@@ -1,40 +1,34 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "format:{tenant_name}",
- "creation": "2025-07-09 16:54:52.274857",
+ "autoname": "format:{shop_type}",
+ "creation": "2025-07-23 17:31:32.105499",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
-  "tenant_name",
-  "email",
-  "contact_number"
+  "shop_type",
+  "enabled"
  ],
  "fields": [
   {
-   "fieldname": "tenant_name",
+   "fieldname": "shop_type",
    "fieldtype": "Data",
-   "label": "Tenant Name"
+   "label": "Shop Type"
   },
   {
-   "fieldname": "email",
-   "fieldtype": "Data",
-   "label": "Email",
-   "options": "Email"
-  },
-  {
-   "fieldname": "contact_number",
-   "fieldtype": "Data",
-   "label": "Contact Number"
+   "default": "0",
+   "fieldname": "enabled",
+   "fieldtype": "Check",
+   "label": "Enabled?"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-07-23 19:09:13.574256",
+ "modified": "2025-07-24 10:45:26.302827",
  "modified_by": "Administrator",
  "module": "Airport Shop Management",
- "name": "Tenant",
+ "name": "Shop Type",
  "naming_rule": "Expression",
  "owner": "Administrator",
  "permissions": [
@@ -56,5 +50,5 @@
  "sort_field": "modified",
  "sort_order": "DESC",
  "states": [],
- "title_field": "tenant_name"
+ "title_field": "shop_type"
 }

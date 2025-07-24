@@ -21,8 +21,8 @@
   "time_of_departure",
   "column_break_fekc",
   "duration",
-  "amended_from",
   "gate_number",
+  "amended_from",
   "section_break_wppf",
   "is_published",
   "route",
@@ -149,12 +149,15 @@
    "fieldtype": "Section Break"
   },
   {
+   "allow_bulk_edit": 1,
+   "allow_on_submit": 1,
    "fieldname": "crew_members",
    "fieldtype": "Table",
    "label": "Crew Members",
    "options": "Flight Crew Member"
   },
   {
+   "allow_on_submit": 1,
    "fieldname": "gate_number",
    "fieldtype": "Data",
    "label": "Gate Number"
@@ -171,7 +174,7 @@
    "link_fieldname": "flight"
   }
  ],
- "modified": "2025-07-10 16:45:42.456808",
+ "modified": "2025-07-24 11:26:32.626751",
  "modified_by": "Administrator",
  "module": "Airplane Mode",
  "name": "Airplane Flight",

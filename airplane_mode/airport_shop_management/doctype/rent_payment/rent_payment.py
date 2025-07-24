@@ -8,5 +8,5 @@ from frappe.model.document import Document
 class RentPayment(Document):
 	def validate(self):
 		if not self.amount_paid:
-			self.amount_paid = frappe.db.get_single_value("Airport Settings", "default_rent_amount") or 0
+			self.amount_paid = frappe.db.get_single_value("Airplane Mode Settings", "default_rent_amount") or 0
 

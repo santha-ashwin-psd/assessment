@@ -1,0 +1,18 @@
+<!-- Include Picnic CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/picnic">
+<title>Shops</title>
+{% block page_content %}
+
+        <div class="flex three responsive" style="gap: 1rem; padding: 2rem;">
+		
+			<div class="card" style="padding: 1.5rem;">
+				<h3>{{ doc.shop_name }}</h3>
+				<p><strong>Airport:</strong> {{ doc.airport }}</p>
+				<a href="{{ doc.route }}" class="button primary">View Details</a>
+			</div>
+		
+		</div>
+
+{% endblock %}
+
+<!-- this is a sample default list template -->

@@ -1,0 +1,21 @@
+<!-- Include Picnic CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/picnic">
+
+{% block page_content %}
+<div class="flex one center" style="margin-top: 50px;">
+    <div class="card" style="width: 100%; max-width: 600px; padding: 2rem;">
+        <h2 class="title" style="margin-bottom: 1rem;">{{ doc.shop_name }}</h2>
+
+        <p><strong>Location:</strong> {{ doc.airport }}</p>
+        <p><strong>Area:</strong> {{ doc.area }} sq. ft</p>
+
+        <div style="margin-top: 2rem;">
+            <a href="/shop-lead-form/new?shop={{ doc.name }}" class="button primary">
+                Rent This Shop
+            </a>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+<!-- this is a sample default web page template -->
